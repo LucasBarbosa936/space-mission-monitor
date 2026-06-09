@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Space Mission Monitor",
+    "slug": "space-mission-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "spacemission",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#020B18"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spacemission.monitor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#020B18"
+      },
+      "package": "com.spacemission.monitor"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
